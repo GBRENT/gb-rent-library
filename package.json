@@ -1,12 +1,19 @@
 {
-  "name": "gb-rent-library",
+  "name": "@gbrent/gb-rent-library",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prep": "npm run format",
+    "format": "prettier -w ./ --ignore-path .prettierignore"
+  },
   "private": true,
-  "dependencies": {},
   "devDependencies": {
-    "nx": "16.2.2"
+    "nx": "16.2.2",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
+  },
+  "repository": {
+    "url": "git://github.com/gbrent/gb-rent-library.git"
   },
   "workspaces": [
     "packages/*"
