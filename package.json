@@ -6,7 +6,6 @@
     "prep": "npm run format",
     "format": "prettier -w ./ --ignore-path .prettierignore"
   },
-  "private": true,
   "devDependencies": {
     "nx": "16.2.2",
     "prettier": "^2.8.8",
